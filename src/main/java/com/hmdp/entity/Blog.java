@@ -39,6 +39,7 @@ public class Blog implements Serializable {
     /**
      * 用户id
      */
+    @TableField()
     private Long userId;
     /**
      * 用户图标
